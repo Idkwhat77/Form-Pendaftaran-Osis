@@ -1,0 +1,83 @@
+<html>
+<head>
+    <style>
+        td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="N/A" method="post">
+    <table style="border: 1px solid; border-collapse: collapse;">
+        <tr>
+            <th colspan="2" style="background-color: blue; color: white; padding: 12px;">FORM PENDAFTARAN OSIS</th>
+        </tr>
+        <tr>
+            <td>Nama Lengkap</td>
+            <td><input type="text" name = "full-name" placeholder="Nama Lengkap"></td>
+        </tr>
+        <tr>
+            <td>Nama Panggilan</td>
+            <td><input type="text" name = "short-name" placeholder="Nama Panggilan"></td>
+        </tr>
+        <tr>
+            <td>Tempat Tanggal Lahir</td>
+            <td><input type="date" name = "born-date"></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>
+                Laki-Laki<input type="radio" name="jenis_kelamin" value="Laki-Laki">
+                Perempuan<input type="radio" name="jenis_kelamin" value="Perempuan">              
+            </td>
+        </tr>
+        <tr>
+            <td>Nomor Telepon</td>
+            <td><input type="text" name ="phone-num" placeholder="Telepon"></td>
+        </tr>
+        <tr>
+            <td>Jurusan</td>
+            <td>
+                IPA<input type="radio" name="jurusan" value="IPA">
+                IPS<input type="radio" name="jurusan" value="IPS">
+                BAHASA<input type="radio" name="jurusan" value="BAHASA">
+            </td>
+        </tr>
+        <tr>
+            <td>Agama</td>
+            <td>
+                <select name="agama">
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katolik">Katolik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Buddha">Buddha</option>
+                </select>                
+            </td>
+        </tr>
+        <tr>
+            <td>Hobi</td>
+            <td>
+                Membaca Buku<input type="checkbox" name="hobi" value="read">
+                Menulis<input type="checkbox" name="hobi" value="write">
+                dll<input type="checkbox" name="hobi" value="others">
+            </td>
+        </tr>
+        <tr>
+            <td>Alasan Motivasi untuk Mendaftar</td>
+            <td><textarea name="reason" rows="10" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td>Foto 3X4</td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <input type="submit" value="Daftar">
+                <input type="reset">
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
